@@ -1,0 +1,46 @@
+@font-face {
+  font-display: swap;
+  font-family: "ArialRegular";
+  font-style: normal;
+  font-weight: 400;
+  src: local(Arial),       
+       url("../fonts/ArialRegular.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "ArialBold";
+  font-style: normal;
+  font-weight: 700;
+  src: local(Arial),       
+	     url("../fonts/ArialBold.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Trebuchet-MS";
+  font-style: normal;
+  font-weight: 400;
+  src: local(Trebuchet-MS),
+       url("../fonts/Trebuchet-MS.woff2") format("woff2"),
+       url("../fonts/Trebuchet-MS.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Trebuchet-MS";
+  font-style: normal;
+  font-weight: 700;
+  src: local(Trebuchet-MS-Bold),
+       url("../fonts/Trebuchet-MS-Bold.woff2") format("woff2"),
+       url("../fonts/Trebuchet-MS-Bold.woff") format("woff");
+}
+
+/* 
+100 - Thin
+200 - Extra Light, Ultra Light
+300 - Light
+400 - Normal, Book, Regular
+500 - Medium
+600 - Semi Bold, Demi Bold
+700 - Bold
+800 - Extra Bold, Ultra Bold
+900 - Black, Heavy
+*/

@@ -1,0 +1,43 @@
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
+body {
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0;      
+  font-family: 'Arial';      
+  font-weight: 400;
+  font-style: normal;
+  background-color: $white-bg;
+}
+a {
+  text-decoration: none;  
+  cursor: pointer;
+}
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1070px; //default 1140px in bootstrap-4
+  }
+}

@@ -1,0 +1,30 @@
+//__________text-color
+$black-text: #000000;
+$white-text: #ffffff;
+$grey-text: #777777;
+
+//__________background-color
+$white-bg: #ffffff;
+$black-bg: #000000;
+$grey-bg-table: #ebebeb;
+$blue-bg: #00bff3;
+$blue-bg-light: #f0fbfe;
+$yellow-bg-opacity: rgba(255,242,0,0.7);
+
+//__________hover,focus,active
+$blue-hover: #00bff3;
+
+//__________border-color
+$black-border: #000000;
+$blue-border: #33ccf5;
+$grey-border: rgba(0,0,0,0.2);
+
+//__________@media
+$lg: 1199px;
+$md: 991px;
+$sm: 767px;
+$xs: 575px;
+
+//__________retina
+$retina-dpi: 144dpi;
+$retina-dppx: 1.5dppx;
